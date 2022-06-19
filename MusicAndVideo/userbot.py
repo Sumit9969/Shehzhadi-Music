@@ -109,4 +109,9 @@ async def repo(client, m: Message):
  
  </b>
 """
-    await m.reply(REPO, disable_web_page_preview=True)
+    await m.reply(REPO, disable_web_page_preview=True, 
+                  reply_markup=InlineKeyboardMarkup([
+                      [InlineKeyboardButton("✨ Join Channel ✨", url=https://t.me/HEPPYLIFI)] 
+                  ]
+                  )
+                 )
